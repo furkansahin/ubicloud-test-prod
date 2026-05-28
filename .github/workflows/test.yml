@@ -15,22 +15,22 @@ jobs:
       fail-fast: false
       matrix:
         runs-on:
-          - ubicloud-standard-16-ubuntu-2404
-          - ubicloud-standard-16-ubuntu-2404
-          - ubicloud-standard-16-ubuntu-2404
-          - ubicloud-standard-16-ubuntu-2404
-          - ubicloud-standard-16-ubuntu-2404
-          - ubicloud-standard-16-ubuntu-2404
-          - ubicloud-standard-16-ubuntu-2404
-          - ubicloud-standard-16-ubuntu-2404
-          - ubicloud-standard-16-ubuntu-2404
-          - ubicloud-standard-16-ubuntu-2404
-          - ubicloud-standard-16-ubuntu-2404
-          - ubicloud-standard-16-ubuntu-2404
-          - ubicloud-standard-16-ubuntu-2404
-          - ubicloud-standard-16-ubuntu-2404
-          - ubicloud-standard-16-ubuntu-2404
-          - ubicloud-standard-16-ubuntu-2404
+          - ubicloud-standard-30-ubuntu-2404
+          - ubicloud-standard-30-ubuntu-2404
+          - ubicloud-standard-30-ubuntu-2404
+          - ubicloud-standard-30-ubuntu-2404
+          - ubicloud-standard-30-ubuntu-2404
+          - ubicloud-standard-30-ubuntu-2404
+          - ubicloud-standard-30-ubuntu-2404
+          - ubicloud-standard-30-ubuntu-2404
+          - ubicloud-standard-30-ubuntu-2404
+          - ubicloud-standard-30-ubuntu-2404
+          - ubicloud-standard-30-ubuntu-2404
+          - ubicloud-standard-30-ubuntu-2404
+          - ubicloud-standard-30-ubuntu-2404
+          - ubicloud-standard-30-ubuntu-2404
+          - ubicloud-standard-30-ubuntu-2404
+          - ubicloud-standard-30-ubuntu-2404
 
     runs-on: ${{ matrix.runs-on }}
     name: ${{ matrix.runs-on }}
